@@ -1,0 +1,76 @@
+.faqs {
+    background-color: aliceblue;
+    width: 100vw;
+    margin-top: -160px;
+    padding-top: 100px;
+    padding-bottom: 5px;
+}
+.faq-page-home {
+    background-color: white;
+}
+.faq-page2 {
+    background-color: aliceblue;
+}
+.faq-page h2 {
+    font-size: 55px;
+    text-align: center;
+    margin-top: 75px;
+}
+.faq-component-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+.faq-body {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.row-content-text {
+    font-weight: 300;
+}
+.faq-page2 .faq-row {
+    background-color: aliceblue;
+}
+.row-title {
+    margin-left: 20px;
+}
+.row-content-text {
+    margin-left: 20px;
+    font-size: 50px;
+}
+#quiz-img-loader {
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+@media (max-width: 800px) {
+    .faq-page h2 {
+        font-size: 40px;
+    }
+}
+@media (max-width: 575px) {
+    .faqs {
+        background-color: aliceblue;
+        width: auto;
+        padding-top: 150px;
+    }
+    .faq-page {
+        background-color: aliceblue;
+    }
+    .faq-row {
+        background-color: aliceblue;
+    }
+    .faq-body {
+        background-color: aliceblue;
+    }
+    .faq-page h2 {
+        font-size: 25px;
+        margin-top: 50px;
+    }
+    .faq-component-container {
+        width: 95%;
+    }
+}

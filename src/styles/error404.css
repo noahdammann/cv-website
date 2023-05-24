@@ -1,0 +1,62 @@
+.error404 {
+    width: 100%;
+    height: 100vh;
+    margin-top: -80px;
+    background-color: aliceblue; 
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.error-button {
+    padding: 12px 20px;
+    font-size: 25px;
+    font-weight: 300;
+    color: #007aff;
+    text-decoration: none;
+    border: 1px solid #007aff;
+    border-radius: 3px;
+    transition: all .3s linear;
+  }
+  
+  .error-button:hover {
+    background-color: #007aff;
+    color: #fff;
+  }
+  
+  .error-p {
+    font-size: 40px;
+    text-align: center;
+    margin-top: -50px;
+    font-weight: 300;
+    color: #007aff;
+  }
+  
+  .error-h2 {
+    font-size: 220px;
+    text-align: center;
+    font-weight: 500;
+    color: #007aff;
+  }
+  @media (max-width: 550px) {
+    .error404 {
+        justify-content: center;
+        gap: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .error-h2 {
+        font-size: 100px;
+    }
+    .error-p {
+        font-size: 30px;
+        margin-top: 0;
+    }
+    .error-button {
+        padding: 10px;
+        font-size: 22px;
+    }
+  }

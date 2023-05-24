@@ -1,0 +1,46 @@
+.policy-header {
+    background-color: #F6F6F6;
+    height: 250px;
+    font-weight: 700;
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.policy-content {
+    padding: 25px 9%;
+}
+.paragraph {
+    margin-bottom: 30px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.heading {
+    text-decoration: underline;
+    font-size: 35px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.paragraph ul {
+    margin-left: 75px;
+}
+.paragraph ul li {
+    margin-bottom: 30px;
+}
+.indent {
+    padding-left: 40px;
+}
+@media (max-width: 500px) {
+    .policy-header {
+        font-size: 35px;
+    }
+    .paragraph {
+        font-size: 16px;
+    }
+    .heading {
+        font-size: 25px;
+    }
+    .indent {
+        padding-left: 20px;
+    }
+}
