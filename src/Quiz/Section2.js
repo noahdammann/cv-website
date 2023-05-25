@@ -95,8 +95,8 @@ export default function Section2() {
 
     return (
         <form className="section-form" onSubmit={handleSubmit(onSubmit)}>
-            {isSubmitted && <Navigate to="/quiz/section3" />}
-            {!prevCompleted && <Navigate to="/quiz/section1" />}
+            {isSubmitted && <Navigate to="/cv-website/quiz/section3" />}
+            {!prevCompleted && <Navigate to="/cv-website/quiz/section1" />}
 
             <div className="seperator-header">
                 <h3>Personal Details</h3>
@@ -239,7 +239,7 @@ export default function Section2() {
             />
 
             <div className="form-navigation">
-                <Link to="/quiz/section1"><button className="prev">Prev</button></Link>
+                <Link to="/cv-website/quiz/section1"><button className="prev">Prev</button></Link>
                 <button className="next" type="submit">Next</button>
             </div>
 

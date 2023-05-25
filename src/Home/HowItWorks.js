@@ -58,7 +58,7 @@ export default function HowItWorks() {
                         <div className="hiw-description" id="first-description-hiw">
                             <Bs1Circle className="hiw-number-icon" />
                             <h3>Take Our Quiz</h3>
-                            <p>You start by completing our quiz. It helps us gather all the necessary information we need so we can create a CV tailored to you. You can start now <Link to="quiz/section1">here</Link>.</p>
+                            <p>You start by completing our quiz. It helps us gather all the necessary information we need so we can create a CV tailored to you. You can start now <Link to="/cv-website/quiz/section1">here</Link>.</p>
                         </div>
                         <img src={quiz} className="hiw-img" id="vector1" />
                     </div>

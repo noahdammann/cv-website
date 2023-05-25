@@ -79,13 +79,13 @@ export default function Checkout() {
                         <h6>R199</h6>
                     </div>
 
-                    <p className="cbc-tacs">By purchasing you agree to the <Link to="/terms-and-conditions" target="_blank">Terms & Conditions</Link></p>
+                    <p className="cbc-tacs">By purchasing you agree to the <Link to="/cv-website/terms-and-conditions" target="_blank">Terms & Conditions</Link></p>
 
                     <form name="PayFastPayNowForm" action="https://www.payfast.co.za/eng/process" method="post" id="make-payment-form">
                         <input required type="hidden" name="cmd" value="_paynow" />
                         <input required type="hidden" name="receiver" pattern="[0-9]" value="22391840" />
-                        <input type="hidden" name="return_url" value={`https://cvexpertise.co.za/#/success/${successRoute}`} />
-                        <input type="hidden" name="cancel_url" value="https://cvexpertise.co.za/#/checkout" />
+                        <input type="hidden" name="return_url" value={`https://cvexpertise.co.za/cv-website/#/success/${successRoute}`} />
+                        <input type="hidden" name="cancel_url" value="https://cvexpertise.co.za/cv-website/#/checkout" />
                         <input required type="hidden" name="amount" value="199.00" />
                         <input required type="hidden" name="item_name" maxLength="255" value="CV Writing Service" />
                         <table>

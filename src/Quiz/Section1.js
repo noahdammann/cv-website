@@ -57,7 +57,7 @@ export default function Section1() {
 
     return (
         <form className="section-form" onSubmit={handleSubmit(onSubmit)}>
-            {isSubmitted && <Navigate to="/quiz/section2" />}
+            {isSubmitted && <Navigate to="/cv-website/quiz/section2" />}
 
             <div className="seperator-header">
                 <h3>Job Information</h3>

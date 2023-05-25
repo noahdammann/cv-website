@@ -127,12 +127,12 @@ export default function Section5() {
 
     return (
         <form className="section-form" onSubmit={handleSubmit(onSubmit)} encType="multipart/form-data">
-            {isSubmitted && <Navigate to="/checkout" />}
-            {!prevCompleted && <Navigate to="/quiz/section4" />}
+            {isSubmitted && <Navigate to="/cv-website/checkout" />}
+            {!prevCompleted && <Navigate to="/cv-website/quiz/section4" />}
 
             <div className="seperator-header">
                 <h3>Template</h3>
-                {errors.template ? <p className="error">This field is required</p> : <p>Choose your template. You can take a closer look <Link to="/examples" target="_blank">here</Link></p>}
+                {errors.template ? <p className="error">This field is required</p> : <p>Choose your template. You can take a closer look <Link to="/cv-website/examples" target="_blank">here</Link></p>}
             </div>
 
             <Controller
@@ -279,7 +279,7 @@ export default function Section5() {
                 {...register("additionalInformation")}
             />
             <div className="form-navigation">
-                <Link to="/quiz/section4"><button className="prev">Prev</button></Link>
+                <Link to="/cv-website/quiz/section4"><button className="prev">Prev</button></Link>
                 <button className="next" type="submit">Next</button>
             </div>
         </form >

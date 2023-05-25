@@ -30,7 +30,7 @@ export default function ContactUs() {
                             rows={4}
                         />
                         <input type="hidden" name="_captcha" value="false" />
-                        <input type="hidden" name="_next" value="https://cvexpertise.co.za" />
+                        <input type="hidden" name="_next" value="https://noahdammann.github.io/cv-website" />
                     </div>
                     <button className="button" id="contact-us-button">Submit</button>
                 </form>

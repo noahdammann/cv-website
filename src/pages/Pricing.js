@@ -25,8 +25,8 @@ export default function Pricing() {
                             <h4>CV Writing Service from</h4>
                             <h3>R199</h3>
                             <div className="pc-button-group">
-                                <Link to="/examples"><button className="button pc-button" id="pc-button1">See Examples</button></Link>
-                                <Link to="/quiz/section1"><button className="button pc-button" id="pc-button2">Get Started<FontAwesomeIcon icon={faCircleArrowRight} id="pc-right-arrow" /></button></Link>
+                                <Link to="/cv-website/examples"><button className="button pc-button" id="pc-button1">See Examples</button></Link>
+                                <Link to="/cv-website/quiz/section1"><button className="button pc-button" id="pc-button2">Get Started<FontAwesomeIcon icon={faCircleArrowRight} id="pc-right-arrow" /></button></Link>
                             </div>
                         </div>
                     </div>
@@ -59,8 +59,8 @@ export default function Pricing() {
                         <div className="prow"><IoIosCheckmarkCircleOutline className="item-icon" /></div>
                         <div className="prow"><IoIosCheckmarkCircleOutline className="item-icon" /></div>
                         <div className="prow plast-row"><IoIosCheckmarkCircleOutline className="item-icon" /></div>
-                        <Link to="/quiz/section1"><button className="button" id="pricing-button">Get Started</button></Link>
-                        <Link id="text-link" to="/quiz/section1"><button className="button" id="go-button">Start</button></Link>
+                        <Link to="/cv-website/quiz/section1"><button className="button" id="pricing-button">Get Started</button></Link>
+                        <Link id="text-link" to="/cv-website/quiz/section1"><button className="button" id="go-button">Start</button></Link>
                     </div>
                 </div>
 
@@ -74,19 +74,19 @@ export default function Pricing() {
                     <div className="pq">
                         <h5>How do revisions work?</h5>
                         <p>If you need any changes to your CV, you have 48 hours from the time you receive it to request revisions. The first revision is free of charge, but any further revisions will be subject to a fee of R100 per revision.</p>
-                        <Link to="/refund-policy" target="_blank">Refund Policy</Link>
+                        <Link to="/cv-website/refund-policy" target="_blank">Refund Policy</Link>
                     </div>
 
                     <div className="pq">
                         <h5>How do refunds work?</h5>
                         <p>We want you to be happy with our service. If you're not satisfied, you can ask for a full refund within 48 hours of receiving your completed CV. If you request a refund after we've made revisions to your CV, we'll deduct a fee of R100 from your total refund amount.</p>
-                        <Link to="/revisions-policy" target="_blank">Revisions Policy</Link>
+                        <Link to="/cv-website/revisions-policy" target="_blank">Revisions Policy</Link>
                     </div>
 
                     <div className="pq">
                         <h5>How long until my CV is finished?</h5>
                         <p>We aim to deliver your CV within 48 hours after you place your order. However, in the event that we are unable to do so, we still guarantee delivery within 72 hours.</p>
-                        <Link to="/faqs" target="_blank">See more FAQs</Link>
+                        <Link to="/cv-website/faqs" target="_blank">See more FAQs</Link>
                     </div>
                 </div>
 
