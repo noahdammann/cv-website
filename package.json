@@ -1,5 +1,5 @@
 {
-    "homepage": "http://noahdammann.github.io/cv-website",
+    "homepage": "http://noahdammann.github.io/cv-website/",
     "name": "cvbusiness",
     "version": "0.1.0",
     "private": true,
@@ -44,7 +44,7 @@
         "react-icons": "^4.8.0",
         "react-material-ui-carousel": "^3.4.2",
         "react-router-dom": "^6.8.2",
-        "react-scripts": "^2.1.3",
+        "react-scripts": "^5.0.1",
         "react-scroll-parallax": "^3.3.2",
         "react-secure-storage": "^1.2.1",
         "smooth-scrollbar": "^8.8.2",
