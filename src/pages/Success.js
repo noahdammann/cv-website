@@ -1,6 +1,6 @@
 import "../styles/success.css"
 import secureLocalStorage from "react-secure-storage";
-import { useEffect } from "react"
+import React, { useEffect } from "react"
 import emailjs from "emailjs-com"
 import Parse from 'parse/dist/parse.min.js';
 
