@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# CV Writing Service Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the source code and assets for a CV writing service website. The website is designed to help customers create professional and effective CVs.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Summary](#summary)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
 
-### `npm start`
+## Summary
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The purpose of the CV Writing Service Website is to assist individuals, particularly students and those with entry-level professional experience, in creating visually appealing CVs. The website also removes the need for consultations with a CV writer by providing a comprehensive quiz that gathers all relevant information about their career, experience, education, and other details necessary for their CV. They can also choose from a selection of templates, which one they would like to be used for their CV. Once users have completed the quiz and submitted their information, the data can be processed and sent to a writer who can use it to begin writing the customer's CV right away.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+* Beautiful Design: The website is visually appealing and feels professional. Through using dynamic content and animations, the website feels slick and modern.
+* Fully Responsive: The website is designed to be fully responsive, ensuring a great user experience across all different devices and screen sizes.
+* Quiz Component: The website utilizes a quiz, comprising multiple forms and fields to collect information from users about their career, experience, education and anything else related to their CVs. Upon completing the quiz and making the payment, all of the user's information will be collected from the local storage in their browser and sent to the backend.
+* Contact Us Page: The website makes the communication between the user and support team simple and easy. Upon filling out the fields and submitting a query, the email will be sent directly to a specified email address for assistance.
+* Automated Email Instructions: Upon completing the quiz and making the payment, users receive an automatic email containing further instructions, streamlining the process and ensuring a great user experience.
+* Integrating Components and Libraries: The website makes use of various components and libraries, such as image carousels, FAQ components, and parallax scrolling effects to enhance the overall design and professional feel of the website.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* React.js: The website is built using React.js to create a well-designed user interface.
+* React Router: React Router is used for navigation of the website, allowing for quick transitions and minimal loading time between different pages. However during production, I realized the limitations of client-side rendering used by React Router. In the future, I would prefer to use Next.js to gain the flexibitilty of both server-side rendering and client-side rendering.
+* React Hook Form and Yup: For easy handling and validation of form data submitted by users, I utilized React Hook Form and Yup.
+* PayFast Payment Integration: To receive payments the website utilizes PayFast payment integration, ensuring secure payment processing for users.
+* Material-UI (MUI): MUI is used for the majority of the CSS styling, which provides a visually appealing design.
+* Back4App API: Instead of creating a backend for my application from scratch, I utilized the Back4App API for backend operations. 
