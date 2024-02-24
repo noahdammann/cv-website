@@ -92,8 +92,8 @@ export default function Section3() {
 
     return (
         <form onSubmit={handleSubmit(onSubmit)}>
-            {isSubmitted && <Navigate to="/cv-website/quiz/section4" />}
-            {!prevCompleted && <Navigate to="/cv-website/quiz/section2" />}
+            {isSubmitted && <Navigate to="/quiz/section4" />}
+            {!prevCompleted && <Navigate to="/quiz/section2" />}
 
             {fields.map((field, i) => {
                 const fieldName = `education[${i}]`
@@ -222,7 +222,7 @@ export default function Section3() {
                     <p>Please click "next"</p>
                 </div>}
             <div className="form-navigation">
-                <Link to="/cv-website/quiz/section2"><button className="prev">Prev</button></Link>
+                <Link to="/quiz/section2"><button className="prev">Prev</button></Link>
                 <button className="next" type="submit">Next</button>
             </div>
             <div className="field-handler">

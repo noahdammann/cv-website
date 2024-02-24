@@ -25,7 +25,7 @@ export default function StartQuiz() {
                 <div className="quiz-info">
                     <h2>Customized CV Creation: <span className="blue">Begin with Our Quiz</span></h2>
                     <h4>Our quiz is the first step towards crafting a CV that makes you look good. Our expertly designed questions will help us gather the information we need to build a CV that truly showcases your skills and accomplishments.</h4>
-                    <Link to="/cv-website/quiz/section1" className="quiz-link"><button className="button" id="start-quiz-button">Start Quiz</button></Link>
+                    <Link to="/quiz/section1" className="quiz-link"><button className="button" id="start-quiz-button">Start Quiz</button></Link>
                 </div>
 
                 {/* For narrow screens */}
@@ -34,7 +34,7 @@ export default function StartQuiz() {
                     <h4>Our quiz is the first step towards crafting a CV that makes you look good. Our expertly designed questions will help us gather the information we need to build a CV that truly showcases your skills and accomplishments.</h4>
                 </div>
                 <img src={quizImage} className="quiz-image2" alt="Women taking quiz" />
-                <Link to="/cv-website/quiz/section1" className="quiz-link"><button className="button" id="start-quiz-button2">Start Quiz</button></Link>
+                <Link to="/quiz/section1" className="quiz-link"><button className="button" id="start-quiz-button2">Start Quiz</button></Link>
 
             </div>
 

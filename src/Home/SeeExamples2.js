@@ -122,7 +122,7 @@ export default function SeeExamples2() {
                 <a href={simple1} target="_blank"><img src={simple12} /></a>
             </div>
 
-            <Link to="/cv-website/examples"><button id="see-examples-button" className="button">See All Examples <FontAwesomeIcon icon={faCircleArrowRight} id="arrow-icon" /></button></Link>
+            <Link to="/examples"><button id="see-examples-button" className="button">See All Examples <FontAwesomeIcon icon={faCircleArrowRight} id="arrow-icon" /></button></Link>
 
         </div>
     )

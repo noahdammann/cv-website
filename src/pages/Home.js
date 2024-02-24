@@ -19,10 +19,10 @@ export default function Home() {
     const location = useLocation()
 
     useEffect(() => {
-        if (location.hash === "/cv-website/#/checkout") {
+        if (location.hash === "/#/checkout") {
             setNavigateToCheckout(true)
         }
-        if (location.hash === `/cv-website/#/success/${successRoute}`) {
+        if (location.hash === `/#/success/${successRoute}`) {
             setNavigateToSuccess(true)
         }
     }, [])
@@ -46,8 +46,8 @@ export default function Home() {
 
     return (
         <div>
-            {navigateToCheckout && <Navigate to="/cv-website/checkout" />}
-            {navigateToSuccess && <Navigate to={"/cv-website/success/" + successRoute} />}
+            {navigateToCheckout && <Navigate to="/checkout" />}
+            {navigateToSuccess && <Navigate to={"/success/" + successRoute} />}
             <div className={isLoaded ? "" : "loader"}></div>
 
             <div className="home">

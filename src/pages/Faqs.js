@@ -28,7 +28,7 @@ const data = {
         },
         {
             title: "Do you offer refunds?",
-            content: <p>Yes, we offer a full refund within 48 hours of the completion of your CV. You can find more details about our <Link to="/cv-website/refund-policy">refund policy</Link> here.</p>,
+            content: <p>Yes, we offer a full refund within 48 hours of the completion of your CV. You can find more details about our <Link to="/refund-policy">refund policy</Link> here.</p>,
         },
         {
             title: "Do you offer any additional services?",

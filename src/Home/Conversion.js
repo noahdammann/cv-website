@@ -13,7 +13,7 @@ export default function Conversion() {
             <div className="conv-container">
                 <div className="conv-right">
                     <h3>Professionally written CV for only <span className="price-tag">R199!</span></h3>
-                    <Link to="/cv-website/quiz/section1"><button className="button" id="conversion-button">Get Started <span id="conversion-arrow-icon"><FontAwesomeIcon icon={faCircleArrowRight} /></span></button></Link>
+                    <Link to="/quiz/section1"><button className="button" id="conversion-button">Get Started <span id="conversion-arrow-icon"><FontAwesomeIcon icon={faCircleArrowRight} /></span></button></Link>
                 </div>
                 <img className="conversion-image" src={conversion} alt="Man satisfied with CV" />
             </div>
